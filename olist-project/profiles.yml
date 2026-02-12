@@ -5,7 +5,7 @@ olist_project: # This must match the 'profile' name in dbt_project.yml
       type: bigquery
       method: service-account
       project: olist-project-487118  # <--- Change this to your BQ Project ID
-      dataset: dbt_dev                   # <--- The dataset dbt will create
+      dataset: olist                   # <--- The dataset dbt will create
       threads: 4
       keyfile: "/Users/momen.jamil/Library/CloudStorage/GoogleDrive-momenjamil@gmail.com/My Drive/Analytics Engineering Project/service_account_key.json" # <--- Full path to your JSON key
       location: EU
